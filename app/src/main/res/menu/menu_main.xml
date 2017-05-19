@@ -10,5 +10,9 @@
         android:id="@+id/action_top_rating"
         android:title="@string/pref_sort_rating_label"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_favorite"
+        android:title="@string/menu_favorite"
+        app:showAsAction="never"/>
 
 </menu>

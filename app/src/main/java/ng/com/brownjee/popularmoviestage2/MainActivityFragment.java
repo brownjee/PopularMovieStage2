@@ -192,6 +192,11 @@ public class MainActivityFragment extends Fragment {
             updateMovie();
             return true;
         }
+        else if (id == R.id.action_favorite) {
+            setNewSortOrder(R.string.pref_sort_favorite_value);
+            updateMovie();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
 
